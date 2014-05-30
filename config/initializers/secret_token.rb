@@ -1,12 +1,7 @@
 # Be sure to restart your server when you modify this file.
 
-# Your secret key is used for verifying the integrity of signed cookies.
+# Your secret key for verifying the integrity of signed cookies.
 # If you change this key, all old signed cookies will become invalid!
-
 # Make sure the secret is at least 30 characters and all random,
 # no regular words or you'll be exposed to dictionary attacks.
-# You can use `rake secret` to generate a secure secret key.
-
-# Make sure your secret_key_base is kept private
-# if you're sharing your code publicly.
-SampleApp::Application.config.secret_key_base = '557ec8b186ea02ef4a727eb6f09977b5cd07ab8ede05b81b763705bdf1b13f0c3ec77a265d957fc4b1623fe4a2e941c00efe9dad15c7fb2fe34a51e87df3b3e0'
+SampleApp::Application.config.secret_token = '15c9d0aa058bdca7da63b2eb9ea7fa8a08c09100f12ed88268989358c20af01d46cd188977bb22c34ca367d96fd1d174ddf5f4324ce31f2e6377030777bad13c'
